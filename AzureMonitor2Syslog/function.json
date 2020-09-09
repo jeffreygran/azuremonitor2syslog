@@ -3,8 +3,8 @@
     {
       "type": "eventHubTrigger",
       "name": "myEventHubMessage",
-      "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
-      "eventHubName": "logs",
+      "connection": "Endpoint=sb://syslog-eh.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=qF/gaMgNMajadaiZ4tM91yhz3CGRHDykhGHIvDnpdr4=",
+      "eventHubName": "myeventhubmessage",
       "consumerGroup": "$Default",
       "direction": "in"
     }
